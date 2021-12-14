@@ -19,7 +19,11 @@ body {
 }
 .main-header { 
     width: 100%;
+<<<<<<< HEAD
     /* position: fixed; */
+=======
+    position: fixed;
+>>>>>>> MediaQueries
 background-color: rgb(248, 212, 4);
 padding: 8px 16px;
 z-index: 1;

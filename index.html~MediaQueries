@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+            <a href="index.html" class="main-header_brand">
+                <img src="images/icono-inicio.png"alt=inicio - tu favorito"> 
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav_items"> 
+                <li class="main-nav_item">
+                    <a href="packages/index.html">Paquetes</a>
+                </li>
+                <li class="main-nav_item">
+                    <a href="customers/index.html">Clientes</a>
+                </li>
+                <li class="main-nav_item main-nav_item--cta">
+                    <a href="start-hosting/index.html">Empezar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="product-overview">
+            <h1> Obtén la libertad que mereces</h1>
+        </section>
+        <section id="plans">
+            <h1 class="section-title">Escoge tu plan</h1>
+            <div class="plan__list">
+                <article class="plan">
+                    <h1 class="plan__title">GRATIS</h1>
+                    <h2 class="plan__price"> $0/mes</h2>
+                    <h3> Para pequeños negocios</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">1 workspace</li>
+                        <li class="plan__feature"> Navegación Ilimitada</li>
+                        <li class="plan__feature"> Soporte Basico</li>
+                    </ul>
+                    <div>
+                        <button class="button"> ESCOGER PLAN</button>
+                    </div>
+                </article>
+                <article class="plan plan--highlighted">
+                    <hi class="plan__annotation"> RECOMENDADO</hi>
+                    <h1  class="plan__title">PLUS</h1>
+                    <h2 class="plan__price">$29/mensual</h2>
+                    <h3>Para grandes proyectos</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">5 Workspaces</li>
+                        <li class="plan__feature"> Navegación Ilimitada</li>
+                        <li class="plan__feature">100GB de almacenamiento</li>
+                        <li class="plan__feature">Sporte Plus</li>
+
+                    </ul>
+                    <div>
+                        <button class="button">ESCOGER PLAN</button>
+                    </div>
+                </article>
+                <article class="plan">
+                    <h1 class="plan__title">PREMIUM</h1>
+                    <h2  class="plan__price"> $99/mensual</h2>
+                    <h3>La solució de tu empresa</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">10 workspaces</li>
+                        <li class="plan__feature">Navegación Ilimitada</li>
+                        <li class="plan__feature">Almacenamiento Ilimitado</li>
+                        <li class="plan__feature">Soporte prioritario</li>
+                    </ul>
+                    <div>
+                        <button class="button">ESCOGER PLAN</button>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+        <section id="key-features">
+            <h1  class="section-title">Buenas razones para quedarse</h1>
+            <ul class="key-feauture__list">
+                <li class="key-feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">3.857,00 clientes confiables</p>
+                </li>
+                <li class="key-feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">99.99% Garantía </p>
+                </li>
+                <li  class="key-feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description"> Alta velocidad</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Soporte</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terminos y Condiciones</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
